@@ -1,5 +1,5 @@
 # Retail-inventory-replenishment-engine
-End-to-end Python ETL and automated Excel reporting pipeline for retail inventory optimization, OOS tracking, ABC analysis, and replenishment.
+End-to-end Python ETL and automated Excel reporting pipeline for retail inventory optimization, Ordering & Receiving of Products, OOS tracking, ABC analysis, Supplier service level, OTIF and replenishment.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_ETL-150458?style=flat&logo=pandas&logoColor=white)
