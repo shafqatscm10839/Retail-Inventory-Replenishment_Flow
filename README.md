@@ -60,6 +60,10 @@ Retail demand planners and inventory managers routinely face four costly operati
 
 
 ---
++------------------+   +---------------------------+
+```
+
+---
 
 ## Supply Chain Methodology & Formulas
 
@@ -67,7 +71,7 @@ All inventory metrics are calculated at the **Store × SKU** grain (with ABC cla
 
 | Metric | Formula / Business Logic | Purpose |
 | :--- | :--- | :--- |
-| **Daily Average Sales (DAS)** | `Total Units Sold (90d) / 90` | Captures true velocity across all calendar days, including zero-sale days |
+| **Daily Average Sales (DAS)** | `Total Units Sold (90d) / 90` | Captures true velocity across all calendar days, including Normal, Promotional & zero-sale days |
 | **Demand Volatility (σ)** | Exact 90-day daily population standard deviation | Prevents underestimating variance on intermittent-demand SKUs |
 | **ABC Classification** | Cumulative 90-day revenue: **A** (<= 80%), **B** (80%–95%), **C** (> 95%) | Focuses working capital and service levels on top revenue drivers |
 | **Safety Stock (SS)** | `ceil(Z × σ × sqrt(Lead Time))` where Z = **1.65** (A: 95%), **1.28** (B: 90%), **0.84** (C: 80%) | Buffers against demand spikes during supplier lead time |
@@ -155,5 +159,5 @@ Supply Chain & Demand Planning Manager | Microsoft Fabric & BI Data Analyst
 
 Specializing in retail demand planning, inventory optimization, Python automation, SQL, Power BI, and Microsoft Fabric analytics pipelines.
 
-* **LinkedIn:** [linkedin.com/in/shafqat-hussain-scm](https://www.linkedin.com/in/shafqat-hussain-scm)
+* **LinkedIn:** [linkedin.com/in/shafqat-hussain-scm](https://linkedin.com/in/shafqat-hussain-scm)
 * **GitHub:** [github.com/shafqatscm10839](https://github.com/shafqatscm10839)
