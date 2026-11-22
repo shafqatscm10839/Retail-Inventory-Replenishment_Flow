@@ -1,11 +1,13 @@
 # Retail-Inventory-Replenishment_Flow
-End-to-end Python ETL and automated Excel reporting pipeline for retail inventory optimization, Ordering & Receiving of Products, OOS tracking, ABC analysis, Supplier service level, OTIF and replenishment.
+End-to-end Python ETL and automated Excel reporting pipeline for retail inventory optimization, Ordering & Receiving of Products, DAS Calculation, OOS tracking, ABC analysis, Supplier service level, OTIF and replenishment.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_ETL-150458?style=flat&logo=pandas&logoColor=white)
 ![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel_Automation-217346?style=flat&logo=microsoft-excel&logoColor=white)
 ![BI Ready](https://img.shields.io/badge/Power_BI_%2F_Fabric-Ready-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+[![Pipeline CI](https://github.com/shafqatscm10839/Retail-Inventory-Replenishment_Flow/actions/workflows/run_pipeline.yml/badge.svg)](https://github.com/shafqatscm10839/Retail-Inventory-Replenishment_Flow/actions/workflows/run_pipeline.yml)
 
 An end-to-end **Python ETL, inventory optimization, and automated executive reporting pipeline** designed for multi-format retail operations (**Hyper**, **Super**, and **Express** stores). It replaces manual weekly spreadsheet reconciliation with a reproducible script that audits stock anomalies, calculates dynamic replenishment quantities, tracks supplier performance, and outputs BI-ready datasets.
 
@@ -107,7 +109,7 @@ Running the pipeline generates `outputs/Retail_Inventory_Report_YYYY-MM-DD.xlsx`
 ## Repository Structure
 
 ```text
-Retail-inventory-replenishment-engine/
+Retail-Inventory-Replenishment_Flow/
 ├── data/                   # Synthetic raw input CSVs (sales, inventory, deliveries)
 ├── src/
 │   ├── generate_data.py    # Reproducible synthetic retail dataset generator
@@ -124,8 +126,8 @@ Retail-inventory-replenishment-engine/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/shafqatscm10839/Retail-inventory-replenishment-engine.git
-cd Retail-inventory-replenishment-engine
+git clone https://github.com/shafqatscm10839/Retail-Inventory-Replenishment_Flow.git
+cd Retail-Inventory-Replenishment_Flow
 ```
 
 ### 2. Set Up Environment & Install Dependencies
