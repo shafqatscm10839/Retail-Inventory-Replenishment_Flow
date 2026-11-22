@@ -59,8 +59,7 @@ Retail demand planners and inventory managers routinely face four costly operati
 +------------------+   +---------------------------+
 
 
----
-+------------------+   +---------------------------+
+
 ```
 
 ---
